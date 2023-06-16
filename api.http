@@ -1,0 +1,13 @@
+GET http://localhost:3000/orders
+
+###
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+    "client_id": 1,
+    "price": 100
+}
+
+###
+GET http://localhost:3001/payments
